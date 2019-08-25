@@ -44,3 +44,8 @@ user@host:~/webpack/client$ npm install jquery popper bootstrap --save
 ```js
 import 'bootstrap/dist/css/bootstrap.css';
 ```
+
+### Minify HTML / Inject JS/CSS Hash
+```console
+user@host:~/webpack/client$ npm install html-webpack-plugin --save-dev
+```

@@ -1,6 +1,7 @@
 import { Negociacoes, NegociacaoService, Negociacao } from '../domain/index.js';
 import { NegociacoesView, MensagemView, Mensagem, DateConverter } from '../ui/index.js';
 import { getNegociacaoDao, Bind, getExceptionMessage, debounce, controller, bindEvent } from '../util/index.js';
+import 'reflect-metadata/Reflect.js';
 
 @controller('#data', '#quantidade', '#valor')
 export class NegociacaoController {
