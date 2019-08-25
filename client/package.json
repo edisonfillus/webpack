@@ -7,11 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "watch": "webpack --mode development -watch"
+    "watch": "webpack --mode development -watch",
+    "start": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
     "reflect-metadata": "^0.1.10"
   },
   "devDependencies": {
@@ -20,7 +24,11 @@
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2017": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.1.0",
     "webpack": "^4.39.2",
-    "webpack-cli": "^3.3.7"
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
   }
 }
