@@ -27,9 +27,14 @@ user@host:~/webpack/client$ npm run build-dev
 user@host:~/webpack/client$ npm install webpack-dev-server --save-dev
 ```
 
-### CSS Loaders
+### CSS / Image / Fonts Loaders
 ```console
-user@host:~/webpack/client$ npm install css-loader style-loader url-loader --save-dev
+user@host:~/webpack/client$ npm install css-loader url-loader file-loader mini-css-extract-plugin --save-dev
+```
+
+### Minify and Optimize CSS
+```console
+user@host:~/webpack/client$ npm install optimize-css-assets-webpack-plugin --save-dev
 ```
 
 ### Bootstrap / JQuery
